@@ -39,4 +39,58 @@ The system provides **role-based access** for faculty and students, allowing aut
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/your-username/Automated-Question-Paper-Evaluation-System.git
-   cd Automated-Question-Paper-Evaluation-System
+   cd Automated-Question-Paper-Evaluation-System   
+   ````
+
+2. **Install Dependencies**
+
+   ```bash
+   npm install   # for Node backend
+   pip install -r requirements.txt   # if Python backend
+   ```
+
+3. **Run the Application**
+
+   ```bash
+   npm start   # or python server.py
+   ```
+
+4. **Access the System**
+
+   * Faculty and students can log in using role-based credentials.
+
+---
+
+## 📂 Project Structure (example)
+
+   ```
+Automated-Question-Paper-Evaluation-System/
+│
+├── backend/        # API, AI models, PDF generation
+├── frontend/       # React UI with role-based views
+├── database/       # Schemas and seed data
+├── docs/           # Documentation and design notes
+└── README.md       # You are here
+   ```
+
+---
+
+## 🔮 Future Enhancements
+
+* Plagiarism detection in student answers.
+* Adaptive question generation (difficulty-based).
+* Detailed analytics dashboard for faculty.
+* Multi-language question paper support.
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you’d like to change.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
